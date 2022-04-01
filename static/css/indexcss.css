@@ -1,0 +1,250 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh
+}
+
+h1 {
+    color: #484848;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer
+}
+
+h1 span {
+    transition: .5s linear
+}
+
+h1:hover span:nth-child(1) {
+    margin-right: 5px
+}
+
+h1:hover span:nth-child(1):after {
+    content: "'";
+}
+
+h1:hover span:nth-child(2) {
+    margin-left: 30px
+}
+
+h1:hover span {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+
+
+/*made with ❤, by qpi65*/
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 26px;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 26px;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+
+/** Menu pour la page d'acceuil--**/
+
+.grid1 {
+    display: grid;
+    height: 10%;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5%;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+.grid11 h1 {
+    color: #484848;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer
+}
+
+.grid11 h1 span {
+    transition: .5s linear
+}
+
+.grid11 h1:hover span:nth-child(1) {
+    margin-right: 5px
+}
+
+.grid11 h1:hover span:nth-child(1):after {
+    content: "";
+}
+
+.grid11 h1:hover span:nth-child(2) {
+    margin-left: 30px
+}
+
+.grid11 h1:hover span {
+    color: rgb(28, 25, 214);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+
+.grid12 h1 {
+    color: #484848;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer
+}
+
+.grid12 h span {
+    transition: .5s linear
+}
+
+.grid12 h1:hover span:nth-child(1) {
+    margin-right: 5px
+}
+
+.grid12 h1:hover span:nth-child(1):after {
+    content: "";
+}
+
+.grid12 h1:hover span:nth-child(2) {
+    margin-left: 30px
+}
+
+.grid12 h1:hover span {
+    color: rgb(248, 167, 16);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+
+.grid13 h1 {
+    color: #484848;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer
+}
+
+.grid13 h span {
+    transition: .5s linear
+}
+
+.grid13 h1:hover span:nth-child(1) {
+    margin-right: 5px
+}
+
+.grid13 h1:hover span:nth-child(1):after {
+    content: "";
+}
+
+.grid13 h1:hover span:nth-child(2) {
+    margin-left: 30px
+}
+
+.grid13 h1:hover span {
+    color: rgb(16, 248, 16);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+
+.grid2 h1 {
+    color: #484848;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+.grid2 h1 span {
+    transition: .5s linear
+}
+
+.grid2 h1:hover span:nth-child(1) {
+    margin-right: 5px
+}
+
+.grid2 h1:hover span:nth-child(1):after {
+    content: "";
+}
+
+.grid2 h1:hover span:nth-child(2) {
+    margin-left: 30px
+}
+
+.grid2 h1:hover span {
+    color: rgb(238, 238, 241);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+
+.grid3 h1 {
+    color: #484848;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+.grid3 h1 span {
+    transition: .5s linear
+}
+
+.grid3 h1:hover span:nth-child(1) {
+    margin-right: 5px
+}
+
+.grid3 h1:hover span:nth-child(1):after {
+    content: "";
+}
+
+.grid3 h1:hover span:nth-child(2) {
+    margin-left: 30px
+}
+
+.grid3 h1:hover span {
+    color: rgb(238, 238, 241);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
