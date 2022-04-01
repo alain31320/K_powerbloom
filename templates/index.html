@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='indexcss.css') }}">
+    <title>Welcome Enerspot</title>
+    <!------ Queries ------>
+</head>
+
+
+<body>
+    <div>
+        <div class="grid1">
+            <div class="grid11">
+                <a class="nav-link active" href="{{ url_for('datas') }}">
+                    <h1><span>Datas</span></h1>
+                </a>
+            </div>
+            <div class="grid12" href="{{ url_for('librairies') }}">
+                <h1><span>Librairies</span></h1>
+            </div>
+            <div class="grid13" href="{{ url_for('optimize') }}">
+                <h1><span>Optimize</span></h1>
+            </div>
+
+
+        </div>
+        <div class="grid2">
+            <h1><span>Bloom</span>-<span>Power</span></h1>
+        </div>
+        <div class="grid3" style="display: grid; height: 30%; grid-template-columns: repeat(3, 1fr); grid-template-rows: 100%; column-gap: 0.125%;">
+            <h1><span>Dive&nbsp;</span>into&nbsp;<span>Energy&nbsp;</span>Facilities</h1>
+
+        </div>
+
+
+    </div>
+</body>
